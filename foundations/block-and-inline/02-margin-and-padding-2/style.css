@@ -24,7 +24,7 @@ body {
 
 .button-container {
   background: #e3f4ff;
-  margin: 0 auto;
+  text-align: center;
   padding: 8px;
 }
 
@@ -34,8 +34,4 @@ button {
   display: block;
   margin: 0 auto;
   padding: 8px 24px;
-}
-
-span {
-  margin-left: auto;
 }
