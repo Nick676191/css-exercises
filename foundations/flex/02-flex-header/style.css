@@ -24,3 +24,11 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.header a {
+  display: block;
+}
+
+.header ul {
+  display: flex;
+}
