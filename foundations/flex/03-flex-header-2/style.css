@@ -28,6 +28,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-right: auto;
 }
 
 button {
@@ -44,6 +45,12 @@ a {
   color: rebeccapurple;
 }
 
-ul {
+.left-side ul {
   list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+.right-side {
+  margin-left: auto;
 }
