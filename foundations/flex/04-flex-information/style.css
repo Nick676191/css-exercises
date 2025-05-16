@@ -18,6 +18,13 @@ img {
 .info {
   display: flex;
   justify-content: center;
+  gap: 52px;
+  margin-top: 32px;
+}
+
+.first, .second, .third, .fourth {
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
