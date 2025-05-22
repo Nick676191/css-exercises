@@ -7,8 +7,9 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-ul {
+li, a{
   list-style: none;
+  text-decoration: none;
 }
 
 img {
