@@ -21,6 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  padding: 15px;
 }
 
 div.main-container {
@@ -29,6 +30,8 @@ div.main-container {
 
 .head-butt-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .icon {
