@@ -9,15 +9,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: auto;
 }
 
 li, a{
   list-style: none;
   text-decoration: none;
+  color: gray;
 }
 
 .header {
   display: flex;
+  margin-bottom: auto;
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
 }
 
 img {
@@ -39,5 +52,6 @@ input {
 }
 
 .footer {
+  display: flex;
   margin-top: auto;
 }
