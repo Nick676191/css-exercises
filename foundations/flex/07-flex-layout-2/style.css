@@ -38,3 +38,13 @@ body {
   display: flex;
   flex: 1;
 }
+
+ul, a {
+  /* get rid of bullet points and underline format on links */
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 5px;
+  font-size: medium;
+  color: white;
+}
