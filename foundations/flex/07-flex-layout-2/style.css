@@ -41,12 +41,15 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   text-wrap: wrap;
-  width: 400px;
+  width: 300px;
+  padding: 20px;
+  margin: 5px;
 }
 
 .content-container {
   display: flex;
   flex: 1;
+  justify-content: flex-start;
 }
 
 .card-container {
@@ -61,7 +64,11 @@ ul, a {
   list-style-type: none;
   text-decoration: none;
   margin: 0;
-  padding: 5px;
+  padding: 0;
   font-size: 24px;
   color: white;
+  /* get links to be vertically spaced apart */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
