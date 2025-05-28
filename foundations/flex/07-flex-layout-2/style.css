@@ -15,6 +15,7 @@ body {
   /* align text in the middle of the block */
   display: grid;
   align-items: center;
+  padding: 0px 16px;
 }
 
 .footer {
