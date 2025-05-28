@@ -13,7 +13,8 @@ body {
   font-weight: 900;
   font-size: 32px;
   /* align text in the middle of the block */
-
+  display: grid;
+  align-items: center;
 }
 
 .footer {
@@ -21,6 +22,9 @@ body {
   background: #eee;
   color: darkmagenta;
   text-align: center;
+  /* code to get footer text into the center vertically */
+  display: grid;
+  align-items: center;
 }
 
 .sidebar {
