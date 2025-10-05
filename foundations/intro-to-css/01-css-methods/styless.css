@@ -1,0 +1,17 @@
+/* using this sheet to style the div element in the HTML code */
+div {
+    /* background */
+    background-color: red;
+    
+    /* font color */
+    color: white;
+    
+    /* font size */
+    font-size: 32px;
+    
+    /* alignment of text in the container */
+    text-align: center;
+
+    /* making text blod in CSS */
+    font-weight: bold;
+}
