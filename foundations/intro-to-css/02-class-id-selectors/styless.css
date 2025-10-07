@@ -1,7 +1,7 @@
 /* Add CSS Styling */
 /* adds this to every odd numbered container in the HTML script */
 .odd {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(227, 112, 112);
     font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
 
@@ -18,7 +18,7 @@
 
 /* rounding it out with the fourth */
 #loner {
-    background-color: rgb(51, 128, 0);
+    background-color: rgb(138, 233, 165);
     font-size: 24px;
     font-weight: bold;
 }
