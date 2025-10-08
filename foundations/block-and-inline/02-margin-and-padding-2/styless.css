@@ -26,9 +26,16 @@ body {
 .button-container {
   background: #e3f4ff;
   margin: 8px 0px 0px;
+  text-align: center;
+  padding: 8px;
 }
 
+/* to get the button on its own line just display it as a block instead of an inline */
+/* then center it by using the auto command for the left and right margins of the button */
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  display: block;
+  margin: 0 auto;
 }
