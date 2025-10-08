@@ -2,39 +2,46 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* gives the correct color and weight to the first two elements in the page */
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
+/* adds the correct font size to the second element and overwrites the command below */
 .para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
+/* sets the font size for the first two elements in the page */
 .para {
   font-size: 22px;
 }
 
+/* uses only one class selector to set the size and text and background color of both buttons */
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
+/* overwrites the above command for the confirm button to change its background and text color and weight */
 button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
+/* ensures the last element in the page is the smallest by using two class selectors for a descendant combinator */
 .text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
+/* sets the parameters for the third and fourth elements in the page */
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
