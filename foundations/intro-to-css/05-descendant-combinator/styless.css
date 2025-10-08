@@ -1,1 +1,8 @@
 /* Add CSS Styling */
+/* using descendant combinator to only choose the <p> elements within the <div> elements */
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
