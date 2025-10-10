@@ -2,8 +2,9 @@
     font-family: monospace;
     background: papayawhip;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 8px;
 }
 
 .logo {
@@ -14,10 +15,10 @@
     padding: 4px 32px;
 }
 
-.left-links ul,
-.right-links ul {
+ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 8px;
     /* getting rid of the initial padding and margin that is given to list objects */
     margin-block: 0;
     padding-inline: 0;
