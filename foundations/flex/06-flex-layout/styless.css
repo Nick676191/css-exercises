@@ -43,8 +43,10 @@ ul {
 /* manipulating the content container */
 .content {
     display: flex;
+    /* flex: 1; */
     flex-direction: column;
     align-items: center;
+    /* justify-content: center; */
     align-self: center;
     gap: 15px;
 }
