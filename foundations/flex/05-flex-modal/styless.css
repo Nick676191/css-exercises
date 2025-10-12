@@ -37,6 +37,18 @@ body {
   flex-shrink: 0;
 }
 
+/* adding another selector for the header flex container */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* adding another selector for the header itself */
+.header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
