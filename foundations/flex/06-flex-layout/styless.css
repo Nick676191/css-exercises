@@ -7,12 +7,26 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* setting up the header as a flex-container */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* getting rid of the bullets in any of the list items and removing the underline from the links */
 li, 
 a {
     list-style-type: none;
     text-decoration: none;
     color: #807c7c;
+}
+
+/* getting rid of weird padding and margin set by the list elements */
+/* also setting up these containers as flex-containers */
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 img {
