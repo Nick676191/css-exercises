@@ -7,8 +7,9 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* setting up the header as a flex-container */
-.header {
+/* setting up the header and footer as a flex-container */
+.header,
+.footer {
     display: flex;
     justify-content: space-between;
 }
