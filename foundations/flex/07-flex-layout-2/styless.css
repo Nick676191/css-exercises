@@ -17,6 +17,8 @@ body {
   margin: 48px;
   display: flex;
   flex-wrap: wrap;
+  /* ensures that the card doesn't grow but can shrink */
+  flex: initial;
 }
 
 .header {
@@ -55,8 +57,6 @@ body {
   height: 250px;
   padding: 12px;
   margin: 16px;
-  /* ensures that the card doesn't grow but can shrink */
-  flex: initial;
 }
 
 /* getting rid of weird initial padding/margin and bullets in `ul` element */
