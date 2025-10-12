@@ -60,6 +60,7 @@ body {
 }
 
 /* getting rid of weird initial padding/margin and bullets in `ul` element */
+/* adding some gaps between the list elements as well */
 ul {
   list-style-type: none;
   margin: 0;
