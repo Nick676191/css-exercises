@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* setting up the header and footer as a flex-container */
@@ -28,6 +31,14 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
+}
+
+/* manipulating the content container */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
 }
 
 img {
